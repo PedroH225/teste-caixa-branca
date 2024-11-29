@@ -7,3 +7,17 @@
 4. O usuário pode escrever um login e senha incorretos;
 5. O código não retorna mensagens de erro;
 6. O código não apresenta mensagens de retorno.
+
+## Cálculo de complexidade ciclomática:
+-E é o número de arestas (conexões entre nós),
+-N é o número de nós,
+-P é o número de componentes conectados (normalmente 1 para um programa único).
+
+M = E - N + 1P
+M = 26 - 23 + 1
+
+Resultado:
+A complexidade ciclomática M do código é 4.
+
+
+
